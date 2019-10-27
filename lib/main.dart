@@ -4,6 +4,7 @@ import 'dart:js' as js;
 import 'package:dart_pub_badge_maker/badge_maker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:modulovalue_project_widgets/all.dart';
 
 void main() => runApp(MyApp());
 
@@ -52,42 +53,8 @@ class _MyAppState extends State<MyApp> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
-                  Text(
-                    "Pub.dev Package Watcher",
-                    style: TextStyle(
-                      fontWeight: FontWeight.w700,
-                      fontSize: 42.0,
-                    ),
-                  ),
-                  SizedBox(height: 6.0),
-                  GestureDetector(
-                    onTap: () => js.context.callMethod(
-                        "open", ["https://twitter.com/modulovalue"]),
-                    child: Text(
-                      "Made by @modulovalue",
-                      style: TextStyle(
-                        fontWeight: FontWeight.w700,
-                        color: Colors.grey[700],
-                        fontSize: 12.0,
-                        decoration: TextDecoration.underline,
-                      ),
-                    ),
-                  ),
-                  SizedBox(height: 4.0),
-                  GestureDetector(
-                    onTap: () => js.context.callMethod("open", [
-                      "https://github.com/modulovalue/dart_pub_package_watcher"
-                    ]),
-                    child: Text(
-                      "Github",
-                      style: TextStyle(
-                        fontWeight: FontWeight.w700,
-                        color: Colors.grey[700],
-                        fontSize: 12.0,
-                        decoration: TextDecoration.underline,
-                      ),
-                    ),
-                  ),
+                  ...modulovalueTitle(
+                      "Pub.dev Package Watcher", "dart_pub_package_watcher"),
                   SizedBox(height: 18.0),
                   Opacity(
                     opacity: 0.5,

@@ -25,6 +25,10 @@ dependencies:
     git:
       url: git://github.com/modulovalue/dart_pub_badge_maker.git
       path: badge_package
+  modulovalue_project_widgets:
+    git:
+      url: git://github.com/modulovalue/modulovalue_project_widgets.git
+      ref: 19d34e2be61bd27f57d4df979fcc1cb83779ee38
   flutter_markdown: ^0.3.0
 
 dev_dependencies:
