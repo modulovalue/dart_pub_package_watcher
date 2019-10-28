@@ -19,7 +19,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^0.1.2
   pub_client: ^3.0.3
   dart_pub_badge_maker:
     git:

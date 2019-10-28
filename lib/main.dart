@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
     final packages = getPackages();
 
     return MaterialApp(
-      title: 'Pub.dev Package Watcher',
+      title: 'Bookmark & Share collections of Dart & Flutter pub.dev Packages.',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

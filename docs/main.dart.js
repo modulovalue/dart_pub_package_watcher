@@ -42983,21 +42983,21 @@ aR:function(){return new F.Ol(D.Wt(),C.r)}}
 F.Ol.prototype={
 p:function(){this.bm()
 this.d.M$=null},
-X:function(a){var u,t,s="Pub.dev Package Watcher",r=null,q=F.U2(),p=X.Wx(r,C.fE),o=N.ac,n=H.c([],[o])
-for(u=U.a3M(s,"dart_pub_package_watcher"),t=0;t<5;++t)n.push(u[t])
-n.push(new T.bE(r,18,r,r))
-n.push(new T.eI(0.5,!1,L.cO("You can bookmark this page or share it with others!",r,r,r,r,r),r))
-n.push(new T.eI(0.5,!1,L.cO("(The packages are stored in the URL)",r,r,r,A.fT(r,r,r,r,r,r,r,r,r,r,r,10,r,r,r,r,!0,r,r,r,r,r,r),r),r))
-n.push(new T.bE(r,24,r,r))
-n.push(L.cO("Packages: "+q.length,r,r,r,r,r))
-n.push(new T.bE(r,12,r,r))
-for(u=new H.aY(q,new F.Oo(),[H.m(q,0),o]),o=new H.cI(u,u.gk(u),[o]);o.q();)n.push(o.d)
-n.push(new T.bE(r,12,r,r))
-n.push(L.SH(C.q_,r,r))
-n.push(new T.bE(r,12,r,r))
-o=L.Vv(r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,!0,r,r,"Press Enter to add",r,r,"New Package",r,r,r,r,r,r,r,r,r,r,r,r,r,r)
-n.push(V.UR(new T.bS(C.kp,new Z.ta(o,C.vE,C.xm,new F.Op(),r),r)))
-return new S.qo(new M.rE(new T.kL(C.aN,r,r,E.Wn(new T.bS(C.pK,T.Su(n,C.hr,C.lh,C.qZ),r),r,C.o),r),r),s,p,r)},
+X:function(a){var u,t,s=null,r=F.U2(),q=X.Wx(s,C.fE),p=N.ac,o=H.c([],[p])
+for(u=U.a3M("Pub.dev Package Watcher","dart_pub_package_watcher"),t=0;t<5;++t)o.push(u[t])
+o.push(new T.bE(s,18,s,s))
+o.push(new T.eI(0.5,!1,L.cO("You can bookmark this page or share it with others!",s,s,s,s,s),s))
+o.push(new T.eI(0.5,!1,L.cO("(The packages are stored in the URL)",s,s,s,A.fT(s,s,s,s,s,s,s,s,s,s,s,10,s,s,s,s,!0,s,s,s,s,s,s),s),s))
+o.push(new T.bE(s,24,s,s))
+o.push(L.cO("Packages: "+r.length,s,s,s,s,s))
+o.push(new T.bE(s,12,s,s))
+for(u=new H.aY(r,new F.Oo(),[H.m(r,0),p]),p=new H.cI(u,u.gk(u),[p]);p.q();)o.push(p.d)
+o.push(new T.bE(s,12,s,s))
+o.push(L.SH(C.q_,s,s))
+o.push(new T.bE(s,12,s,s))
+p=L.Vv(s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,!0,s,s,"Press Enter to add",s,s,"New Package",s,s,s,s,s,s,s,s,s,s,s,s,s,s)
+o.push(V.UR(new T.bS(C.kp,new Z.ta(p,C.vE,C.xm,new F.Op(),s),s)))
+return new S.qo(new M.rE(new T.kL(C.aN,s,s,E.Wn(new T.bS(C.pK,T.Su(o,C.hr,C.lh,C.qZ),s),s,C.o),s),s),"Bookmark & Share collections of Dart & Flutter pub.dev Packages.",q,s)},
 $aa1:function(){return[F.qC]}}
 F.Oo.prototype={
 $1:function(a){var u=null
